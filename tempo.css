@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+body {
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 100px;
+  text-align: center;
+  
+  
+}
+h1 {
+  font-size: 50px;
+  background: -webkit-linear-gradient(#0c4961, #29abaf);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+  font-weight: 500;
+  
+}
+label {
+  background: -webkit-linear-gradient(#47207a, #b33353);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: block;
+  margin-bottom: 5px;
+  font-family:cursive;
+}
+input[type="number"] {
+  padding: 5px;
+  width: 150px;
+}
+select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+button {
+  padding: 5px 10px;
+}
+#result {
+  margin-top: 20px;
+
+}
+
